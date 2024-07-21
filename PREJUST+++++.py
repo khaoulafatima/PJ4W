@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Load RDF data into a graph
 g = Graph()
 # Parse the RDF data from the specified file. Adjust the file path and format as needed.
-g.parse("https://github.com/khaoulafatima/PJ4W/blob/main/PREJUS4KG.owl", format="xml")  # XML format is used; change if necessary
+g.parse("PREJUS4KG.owl", format="xml")  # XML format is used; change if necessary
 
 # Function to execute SPARQL queries on the RDF graph
 def execute_sparql_query(query):
