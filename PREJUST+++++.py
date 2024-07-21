@@ -18,7 +18,7 @@ def execute_sparql_query(query):
 # Route to render the index page
 @app.route('/')
 def index():
-    return render_template('https://github.com/khaoulafatima/PJ4W/blob/main/INDEX.html')  # Render the 'INDEX.html' template
+    return render_template('INDEX.html')  # Render the 'INDEX.html' template
 
 # Route to handle SPARQL queries submitted via POST request
 @app.route('/query', methods=['POST'])
@@ -34,7 +34,7 @@ def query():
             # Convert each row of the result to a list of strings
             results.append([str(value) for value in row])
         # Render the 'RESULT.html' template with the query, headers, and results
-        return render_template('https://github.com/khaoulafatima/PJ4W/blob/main/RESULT.html', query=sparql_query, headers=headers, results=results)
+        return render_template('RESULT.html', query=sparql_query, headers=headers, results=results)
     except Exception as e:
         # Handle exceptions by returning an error message
         return f"An error occurred: {str(e)}"
