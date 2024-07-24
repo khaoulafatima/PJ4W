@@ -1,0 +1,1187 @@
+[ {
+  "@id" : "http://example.org/abuse-of-women#AAandOthers_v_Sweden",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalDecision" : [ {
+    "@value" : "Not to return the applicants to Yemen"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalOutcome" : [ {
+    "@value" : "Recognized risk if returned to Yemen"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalReason" : [ {
+    "@value" : "Lack of effective legal protection and societal norms that condone abuse"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "Pending"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Sweden"
+  } ],
+  "http://example.org/abuse-of-women#hasRelatedTo" : [ {
+    "@id" : "http://example.org/abuse-of-women#DomesticAbuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Abuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The act of abusing someone, especially a woman."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Abuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#AbuseIncident1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#AbuseIncident2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#AbuseIncident3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Abuse_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#EmotionalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@id" : "http://example.org/abuse-of-women#Consequence_1"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@id" : "http://example.org/abuse-of-women#Context_1"
+  } ],
+  "http://example.org/abuse-of-women#hasDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#duration",
+    "@value" : "P2Y6M"
+  } ],
+  "http://example.org/abuse-of-women#hasFrequency" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Georgia"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#D"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#C"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Abuse_Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#EmotionalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@id" : "http://example.org/abuse-of-women#Consequence_Renewed_Threats"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@id" : "http://example.org/abuse-of-women#Context_Threats_Against_Lawyer"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Kosice"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#Perpetrator_A"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#Marta_Hajduova"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Article13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalArticle" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Right to an Effective Remedy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Article 13"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Article25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalArticle" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Right to Petition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Article 25"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Article3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalArticle" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prohibition of Torture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Article 3"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#AydinCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalConsequence" : [ {
+    "@value" : "Turkey obliged to prevent torture, ensure effective remedies, and protect petition rights"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalEffect" : [ {
+    "@value" : "Found violations of ECHR Articles 3, 13, and 25"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalOutcome" : [ {
+    "@value" : "ECHR Judgment"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "Closed"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalTime" : [ {
+    "@value" : "Years"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aydin v. Turkey"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#AydinJudgment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalJudgment" ],
+  "http://example.org/abuse-of-women#hasDamages" : [ {
+    "@value" : "None specified"
+  } ],
+  "http://example.org/abuse-of-women#hasRelatedTo" : [ {
+    "@id" : "http://example.org/abuse-of-women#AbuseIncident1"
+  }, {
+    "@id" : "http://example.org/abuse-of-women#AbuseIncident2"
+  }, {
+    "@id" : "http://example.org/abuse-of-women#AbuseIncident3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ECHR Judgment in Aydin v. Turkey"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Perpetrator" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The applicant's ex-husband"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "B"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Victim" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The primary victim, who endured physical and psychological harassment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "C"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Case_Hajduova_v_Slovakia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalDecision" : [ {
+    "@value" : "The domestic authorities failed to comply with their statutory obligation"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalEffect" : [ {
+    "@value" : "judgment by the European Court of Human Rights"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalOutcome" : [ {
+    "@value" : "violation of Articles 5 and 8 of the Convention"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalReason" : [ {
+    "@value" : "failure to order psychiatric detention of the perpetrator"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "final"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Consequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The result of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Consequence"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Consequence_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Consequence" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The systemic failure of Georgian authorities led to the escalation of violence, resulting in C's murder by D on 25 July 2014."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Failure of Protection and Escalation to Murder"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Consequence_Renewed_Threats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Consequence" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Renewed threats against Marta Hajduova and her lawyer"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Context",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The circumstances in which the abuse occurred."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Context"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Context_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "C and D cohabited from December 2011 to June 2012, marked by disputes, jealousy, physical, and psychological harassment. Abuse continued from December 2011, including threats to kill C and her family."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Relationship Dynamics and Escalating Abuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Context_Threats_Against_Lawyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Context" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Threats against Marta Hajduova's lawyer and her employee"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Perpetrator" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The primary perpetrator, a police officer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "D"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Damages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The compensation awarded to a party in a legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Damages"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Damages_Compensation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Damages" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Compensation for Marta Hajduova"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#DomesticAbuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Abuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalAndSocialConsequences"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@id" : "http://example.org/abuse-of-women#YemenContext"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#MaleFamilyMembers"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#WomenAndChildren"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#EmotionalAbuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The use of words or actions to hurt someone emotionally, especially a woman."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Emotional Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#EmotionalAbuseIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#EmotionalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@value" : "Profound emotional impact"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@value" : "Detention"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#StateAuthorities"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#MsAydin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Emotional Abuse of Ms. Aydin"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#EmotionalAbuseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#EmotionalAbuse" ],
+  "http://example.org/abuse-of-women#hasFrequency" : [ {
+    "@value" : "Frequent"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#MaleFamilyMembers"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@value" : "Severe"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#WomenAndChildren"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The use of words or actions to hurt someone emotionally, especially a woman."
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#EuropeanCourtOfHumanRights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalJudgment" ],
+  "http://example.org/abuse-of-women#hasLegalArticle" : [ {
+    "@value" : "Protection under international human rights law"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalDecision" : [ {
+    "@value" : "Applicants not to be returned to Yemen"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalEffect" : [ {
+    "@value" : "Acknowledged severe risk faced by the applicants if returned to Yemen"
+  } ],
+  "http://example.org/abuse-of-women#hasRelatedTo" : [ {
+    "@id" : "http://example.org/abuse-of-women#DomesticAbuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalAndSocialConsequences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Consequence" ],
+  "http://example.org/abuse-of-women#hasLegalRecourse" : [ {
+    "@value" : "Minimal protection against domestic violence"
+  } ],
+  "http://example.org/abuse-of-women#hasSocialConsequences" : [ {
+    "@value" : "Discriminated against women under social customs and Shari’a law"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The result of the abuse."
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalArticle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A provision in a legal document, such as a convention or treaty."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Article"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalArticle_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalArticle" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Right to life."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Article 2 of the European Convention on Human Rights"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalArticle_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalArticle" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prohibition of discrimination."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Article 14 of the European Convention on Human Rights"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A case that is brought before a court of law."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Case"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalCase_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalJudgment" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalJudgment_1"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalOutcome" : [ {
+    "@value" : "The ECHR found that the Georgian authorities failed to fulfill their obligations under Articles 2 and 14 of the Convention."
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "Closed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A legal case brought before the European Court of Human Rights (ECHR)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A and B v. Georgia"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalJudgment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The decision of a court of law in a legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legal Judgment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#LegalJudgment_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalJudgment" ],
+  "http://example.org/abuse-of-women#hasDamages" : [ {
+    "@value" : "None"
+  } ],
+  "http://example.org/abuse-of-women#hasRelatedTo" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse_1"
+  } ],
+  "http://www.semanticweb.org/fatimazahra/ontologies/2022/9/prejust4w#has_type" : [ {
+    "@id" : "http://example.org/abuse-of-women#EmotionalAbuseInstance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The ECHR highlighted the negligence and inaction of law enforcement, stressing the need for immediate and effective responses to domestic violence allegations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ECHR Judgment on A and B v. Georgia"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Legal_Judgment_Hajduova_v_Slovakia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalJudgment" ],
+  "http://example.org/abuse-of-women#hasDamages" : [ {
+    "@id" : "http://example.org/abuse-of-women#Damages_Compensation"
+  } ],
+  "http://example.org/abuse-of-women#hasRelatedTo" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse_Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Judgment in the case of Hajduova v. Slovakia"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#MaleFamilyMembers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Perpetrator" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The person who commits the abuse."
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Marta_Hajduova",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Victim" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Marta Hajduova"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#MsAydin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Victim" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ms. Aydin"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Ms_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Victim" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The applicant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ms. A"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Perpetrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The person who commits the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Perpetrator"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Perpetrator_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Perpetrator" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#PhysicalAbuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The use of physical force against someone, especially a woman."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Physical Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#PhysicalAbuseIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#PhysicalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@value" : "Severe physical pain and suffering"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@value" : "Detention"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#StateAuthorities"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#MsAydin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Physical Abuse of Ms. Aydin"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#PhysicalAbuseInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#PhysicalAbuse" ],
+  "http://example.org/abuse-of-women#hasFrequency" : [ {
+    "@value" : "Frequent"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#MaleFamilyMembers"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@value" : "Severe"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#WomenAndChildren"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The use of physical force against someone, especially a woman."
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#SexualAbuseIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Abuse", "http://example.org/abuse-of-women#PhysicalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@value" : "Bruising and psychological trauma"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@value" : "Detention"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Italy"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#StateAuthorities"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#MsAydin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sexual Abuse of Ms. Aydin"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#StateAuthorities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Perpetrator" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "State Authorities"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Victim",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The person who is abused."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Victim"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Violation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The act of violating a legal provision."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Violation"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Violation1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Violation" ],
+  "http://example.org/abuse-of-women#hasLegalArticle" : [ {
+    "@id" : "http://example.org/abuse-of-women#Article3"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalCase" : [ {
+    "@id" : "http://example.org/abuse-of-women#AydinCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Violation of Article 3"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Violation2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Violation" ],
+  "http://example.org/abuse-of-women#hasLegalArticle" : [ {
+    "@id" : "http://example.org/abuse-of-women#Article13"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalCase" : [ {
+    "@id" : "http://example.org/abuse-of-women#AydinCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Violation of Article 13"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Violation3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Violation" ],
+  "http://example.org/abuse-of-women#hasLegalArticle" : [ {
+    "@id" : "http://example.org/abuse-of-women#Article25"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalCase" : [ {
+    "@id" : "http://example.org/abuse-of-women#AydinCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Violation of Article 25"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#Violation_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Violation" ],
+  "http://example.org/abuse-of-women#hasLegalArticle" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalArticle_1"
+  }, {
+    "@id" : "http://example.org/abuse-of-women#LegalArticle_2"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalCase" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase_1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Violation of the right to life and protection against discrimination under the European Convention on Human Rights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Violation of Articles 2 and 14"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#WomenAndChildren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Victim" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The person who is abused."
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#YemenContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Context" ],
+  "http://example.org/abuse-of-women#hasDuration" : [ {
+    "@value" : "Indeterminate"
+  } ],
+  "http://example.org/abuse-of-women#hasFrequency" : [ {
+    "@value" : "Frequent"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Yemen"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@value" : "Severe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The circumstances in which the abuse occurred in Yemen"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#abuse_instance_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#PhysicalAbuse" ],
+  "http://example.org/abuse-of-women#hasConsequence" : [ {
+    "@id" : "http://example.org/abuse-of-women#consequence_1"
+  } ],
+  "http://example.org/abuse-of-women#hasContext" : [ {
+    "@id" : "http://example.org/abuse-of-women#marriage_context_1"
+  } ],
+  "http://example.org/abuse-of-women#hasPerpetrator" : [ {
+    "@id" : "http://example.org/abuse-of-women#B"
+  } ],
+  "http://example.org/abuse-of-women#hasSeverity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "50"
+  } ],
+  "http://example.org/abuse-of-women#hasVictim" : [ {
+    "@id" : "http://example.org/abuse-of-women#Ms_A"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#case_55164_08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2011-01-14"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalJudge" : [ {
+    "@value" : "Christos Rozakis"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalOutcome" : [ {
+    "@value" : "Judgment"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "Final"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Case against the Republic of Croatia (Application no. 55164/08)"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#consequence_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Consequence" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Effects of Abuse on Ms. A"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#divorce_case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#LegalCase" ],
+  "http://example.org/abuse-of-women#hasLegalDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2006-11-07"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalJudge" : [ {
+    "@value" : "Z. Municipal Court"
+  } ],
+  "http://example.org/abuse-of-women#hasLegalStatus" : [ {
+    "@value" : "Dissolved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Divorce Case"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasConsequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The consequence of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has consequence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Consequence"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The context of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Context"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasDamages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The damages awarded in the legal judgment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalJudgment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has damages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Damages"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The duration of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasFrequency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The frequency of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has frequency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalArticle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The legal article that was violated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Violation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal article"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalArticle"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The legal case in which the violation occurred."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Violation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalConsequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The legal consequence of the case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal consequence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalCosts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The costs of the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal costs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalDamages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The damages awarded in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal damages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalDecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The decision in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalEffect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The effect of the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal effect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalJudge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The judge in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal judge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalJudgment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The judgment in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal judgment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalJudgment"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalLawyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The lawyer in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal lawyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalOutcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The outcome of the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The reason for the decision in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal reason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalRecourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalSanction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The sanction in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal sanction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The legal status of the case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The time taken for the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLegalWitness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The witness in the legal case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has legal witness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The location of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasPerpetrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The perpetrator of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has perpetrator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Perpetrator"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasRelatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The abuse that is related to the legal judgment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#LegalJudgment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has related to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The severity of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasSocialConsequences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#hasVictim",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The victim of the abuse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has victim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#Victim"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#marriage_context_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Context" ],
+  "http://example.org/abuse-of-women#hasDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#duration",
+    "@value" : "P4Y"
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Z."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Marriage and Divorce"
+  } ]
+}, {
+  "@id" : "http://example.org/abuse-of-women#psychiatric_report",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Context" ],
+  "http://example.org/abuse-of-women#hasDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2004-12-06"
+  } ],
+  "http://example.org/abuse-of-women#hasDescription" : [ {
+    "@value" : "B had been captured during the Homeland War and detained in a concentration camp where he had been tortured and had sustained serious bodily injuries. Since 1992 he had been suffering from mental disorders such as anxiety, paranoia, epilepsy and PTSD."
+  } ],
+  "http://example.org/abuse-of-women#hasLocation" : [ {
+    "@value" : "Z."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "B's Psychiatric Report"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fatimazahra/ontologies/2022/9/prejust4w",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fatimazahra/ontologies/2022/9/prejust4w#Abuse_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://example.org/abuse-of-women#Abuse" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fatimazahra/ontologies/2022/9/prejust4w#has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/abuse-of-women#Abuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/abuse-of-women#EmotionalAbuse"
+  }, {
+    "@id" : "http://example.org/abuse-of-women#PhysicalAbuse"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#duration",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
