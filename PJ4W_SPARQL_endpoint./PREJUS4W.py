@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Load RDF data into a graph
 g = Graph()
 # Parse the RDF data from the specified file.
-g.parse("AEGIS_Fem.ttl", format="turtle")  # turtle format is used
+g.parse("https://github.com/khaoulafatima/PJ4W/blob/PREJUST%2B%2B%2B%2B%2B.py/AEGIS_Fem.ttl", format="turtle")  # turtle format is used
 
 # Function to execute SPARQL queries on the RDF graph
 def execute_sparql_query(query):
