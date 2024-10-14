@@ -17,9 +17,9 @@ Before running this application, ensure you have the following installed:
 	/query: Endpoint to handle SPARQL query submission and display results.
 ### HTML Templates
 * **INDEX.html** 
-This template should contain a form for users to submit their SPARQL queries. Example:
+This template contain a form for users to submit their SPARQL queries. Example:
 * **RESULT.html** 
-This template should display the query results.
+This template display the query results.
 ## Conclusion
 This documentation outlines the structure and functionality of the RDF SPARQL Query web application. It explains how to set up, run, and use the application to execute SPARQL queries on RDF data.
 
