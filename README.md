@@ -15,7 +15,7 @@ Before running this application, ensure you have the following installed:
 * Routes:<br>
 	/: The home page rendering INDEX.html. <br>
 	/query: Endpoint to handle SPARQL query submission and display results.
-### HTML Templates
+### HTML  Templates
 * **INDEX.html** 
 This template contain a form for users to submit their SPARQL queries. Example:
 * **RESULT.html** 
